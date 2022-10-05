@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4.3.3CN - Common Wallet (CW) Report  CW Missing Transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8bb2e67-f4ec-4b1d-9fcf-238b957a9469</testCaseGuid>
+</TestCaseEntity>
