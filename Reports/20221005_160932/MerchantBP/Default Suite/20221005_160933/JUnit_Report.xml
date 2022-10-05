@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Default Suite" time="11.977" tests="1" failures="0" errors="1">
+   <testsuite name="Default Suite" tests="1" failures="0" errors="1" time="11.977" skipped="0" timestamp="2022-10-05 16:09:46" hostname="joseph.quinones - 172.17.3.228" id="Test Suites/MerchantBP/Default Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joseph.quinones\\Katalon Studio\\OtepTest\\Reports\\20221005_160932\\MerchantBP\\Default Suite\\20221005_160933"/>
+         <property name="logFiles" value="C:\\Users\\joseph.quinones\\Katalon Studio\\OtepTest\\Reports\\20221005_160932\\MerchantBP\\Default Suite\\20221005_160933\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="joseph.quinones - 172.17.3.228"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="172.17.3.228"/>
+         <property name="sessionId" value="c4f3503ca8fe89b264219c81dc4a9135"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MerchantBP/Default Suite/Placebet  Cashout" time="11.509" classname="Test Cases/MerchantBP/Default Suite/Placebet  Cashout" status="ERROR">
+         <error type="ERROR" message="Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-10-05 16:09:47 - [TEST_CASE][ERROR] - Test Cases/MerchantBP/Default Suite/Placebet  Cashout: Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	... 22 more
+
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - "----------------------------------------------------": null
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - "This test case script is generated by Katalon Studio": null
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - "Generated date: 05-Oct-2022 04:07:23 PM": null
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - "File path: C:\Users\joseph.quinones\Desktop\SELENIUM IDE\00MerchantBPandCO.side": null
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - "Generated by: joseph.quinones@inplaymatrix.com": null
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - baseUrl = "https://www.1652yabo.com:9976/": null
+
+2022-10-05 16:09:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-05 16:09:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-05 16:09:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-05 16:09:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-05 16:09:52 - [TEST_STEP][PASSED] - selenium = new com.kms.katalon.core.webui.driver.KatalonWebDriverBackedSelenium(baseUrl): null
+
+2022-10-05 16:09:53 - [TEST_STEP][PASSED] - selenium.open("http://sfminitransferwallet2.inplaymatrix.com/?token=a288da0e-264e-48d0-9e7d-8a32da2108e6&languageCode=en"): null
+
+2022-10-05 16:09:56 - [TEST_STEP][PASSED] - "//selectFrame | index=0 |  | ": null
+
+2022-10-05 16:09:56 - [TEST_STEP][ERROR] - initialwallet = selenium.getText("css=.row:nth-child(1) > .text-right"): Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Script1664957260476.run(Script1664957260476.groovy:54)
+	... 13 more
+
+
+2022-10-05 16:09:58 - [MESSAGE][ERROR] - Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Script1664957260476.run(Script1664957260476.groovy:54)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2022-10-05 16:09:47 - [TEST_CASE][ERROR] - Test Cases/MerchantBP/Default Suite/Placebet  Cashout: Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-05 16:09:46 - [TEST_SUITE][ERROR] - Default Suite: Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2022-10-05 16:09:46 - [TEST_SUITE][ERROR] - Default Suite: Test Cases/MerchantBP/Default Suite/Placebet  Cashout FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element css=.row:nth-child(1) > .text-right not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:47)
+	at com.thoughtworks.selenium.webdriven.commands.GetText.handleSeleneseCommand(GetText.java:29)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.getString(WebDriverCommandProcessor.java:121)
+	at com.thoughtworks.selenium.DefaultSelenium.getText(DefaultSelenium.java:476)
+	at com.thoughtworks.selenium.Selenium$getText$0.call(Unknown Source)
+	at Placebet  Cashout.run(Placebet  Cashout:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664957373914.run(TempTestSuite1664957373914.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate element even after falling back to Sizzle: .row:nth-child(1) > .text-right
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IMQA-0117', ip: '172.17.3.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.fallbackToSizzle(ElementFinder.java:154)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:125)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>
